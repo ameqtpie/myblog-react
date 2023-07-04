@@ -54,8 +54,13 @@ const Create = () => {
             setAuthor(e.target.value);
           }}
         >
-          <option value="mario">mario</option>
+          <option value="christian">christian</option>
           <option value="yoshi">yoshi</option>
+          <option value="rainier">rainier</option>
+          <option value="patrick">patrick</option>
+          <option value="racky">racky</option>
+          <option value="jimbhoy">jimbhoy</option>
+          <option value="rodolfo">rodolfo</option>
         </select>
         {!isPending && <button>Add Blog</button>}
         {isPending && <button>Adding blog...</button>}
