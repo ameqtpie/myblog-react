@@ -5,7 +5,7 @@ const BlogDetails = () => {
   const { id } = useParams();
   const {
     data: blog,
-    error,
+    Error,
     isPending,
   } = useFetch("http://localhost:8000/blogs/" + id);
 
